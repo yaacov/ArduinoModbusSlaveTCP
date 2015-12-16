@@ -11,7 +11,7 @@
     * Reads analog inputs as input registers.
 
     The circuit: ( see: ./extras/ModbusSetch.pdf )
-    * An Arduino.
+    * An ESP8266 unit with connectors to digital out pins.
     * 2 x LEDs, with 220 ohm resistors in series.
     * A switch connected to a digital input pin.
     * A potentiometer connected to an analog input pin.
