@@ -59,8 +59,6 @@ public:
     
     CallBackFunc cbVector[4];
 private:
-    uint16_t calcCRC(uint8_t *buf, int length);
-    
     uint8_t unitID;
     uint8_t bufIn[MAX_BUFFER];
     uint8_t bufOut[MAX_BUFFER];
