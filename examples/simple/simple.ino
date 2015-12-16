@@ -15,7 +15,6 @@
     * 2 x LEDs, with 220 ohm resistors in series.
     * A switch connected to a digital input pin.
     * A potentiometer connected to an analog input pin.
-    * A RS485 module (Optional) connected to RX/TX and a digital control pin.
 
     Created 8 12 2015
     By Yaacov Zamir
