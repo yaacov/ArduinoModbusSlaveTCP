@@ -26,8 +26,8 @@
 #include <ESP8266WiFi.h>
 #include <ModbusSlaveTCP.h>
 
-const char* ssid = "home";
-const char* pass = "1234567890abc";
+const char* ssid = "...";
+const char* pass = "...";
 
 /* slave id = 1, rs485 control-pin = 8, baud = 9600
  */
