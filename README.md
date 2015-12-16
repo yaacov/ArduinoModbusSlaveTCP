@@ -101,7 +101,7 @@ handler functions must return void and take:
 const char* ssid = "....";
 const char* pass = "....";
 
-Modbus slave(1); // slave id = 0
+Modbus slave(1); // slave id = 1
 
 void setup() {
     // connect to WiFi
@@ -143,7 +143,7 @@ void writeDigitlOut(uint8_t fc, uint16_t address, uint16_t status) {
 const char* ssid = "....";
 const char* pass = "....";
 
-Modbus slave(1); // slave id = 0
+Modbus slave(1); // slave id = 1
 
 void setup() {
     // connect to WiFi
