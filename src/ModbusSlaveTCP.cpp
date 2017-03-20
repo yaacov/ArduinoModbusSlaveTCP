@@ -242,7 +242,7 @@ void ModbusTCP::writeCoilToBuffer(int offset, uint16_t state) {
     
     if (state == HIGH) {
         bitSet(bufOut[address], bit);
-    } else if (state) {
+    } else if (!state) {
         bitClear(bufOut[address], bit);
     }
 }
