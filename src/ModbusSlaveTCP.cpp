@@ -242,7 +242,7 @@ void ModbusTCP::writeCoilToBuffer(int offset, uint16_t state) {
     
     if (state == HIGH) {
         bitSet(bufOut[address], bit);
-    } else if (!state) {
+    } else {
         bitClear(bufOut[address], bit);
     }
 }
@@ -275,4 +275,3 @@ void ModbusTCP::writeStringToBuffer(int offset, uint8_t *str, uint8_t length) {
     
     memcpy(bufOut + address, str, length);
 }
-
